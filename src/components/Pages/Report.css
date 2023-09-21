@@ -1,0 +1,29 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.Report{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    font-size: 1rem;
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+.form1{
+    margin: 20px;
+    width: 100%;
+}
+form{
+    width: 45%;
+}
+.Submit{
+    max-width: 20%;
+    position: relative;
+    left: 40%;
+}
