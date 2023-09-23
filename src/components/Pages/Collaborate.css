@@ -1,0 +1,59 @@
+/* src/App.css */
+
+.main {
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .header {
+    background-color: #ffbf00;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .location,
+  .area {
+    display: inline-block; /* Change display to inline-block */
+    margin-top: 20px;
+  }
+  
+  .location h2,
+  .area h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+    height: 20px;
+  }
+  
+  .agency {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .agency-box {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 45%;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .agency-info {
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  

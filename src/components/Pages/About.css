@@ -1,0 +1,132 @@
+/* AboutUs.css */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  .half-text{
+    font-size: large;
+    text-align: center;
+    color: #ffffff;
+  }
+  .hero {
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+    /* background-image: "url"("/p1.jpg"); */
+    background-size: cover;
+    background-position: 100%;
+    flex: 1;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 40vh;
+  }
+  .scro{
+    overflow-y: scroll;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+  }
+  /* AboutUs.css */
+  
+  .mission, .values, .team {
+    margin-top: 50px;
+  }
+  
+  .mission h2, .values h2, .team h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .values ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .team-member {
+    margin-top: 20px;
+  }
+  /* AboutUs.css */
+  
+  
+  .left-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-column h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .right-column {
+    flex: 1;
+  }
+  
+  .right-column img {
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .side-by-side-content {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between;
+  }
+  .mission {
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* 33.33% width for each section with some spacing */
+    margin-right: 20px; /* Add spacing between sections */
+    background-color:lightgray; /* Set the background color for the mission section */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .values {
+    flex: 1;
+    max-width: calc(33.33% - 20px);
+    margin-right: 20px;
+    background-color:lightgrey; /* Set the background color for the values section */
+    padding: 20px;
+  }
+  
+  .team {
+    flex: 1;
+    max-width: calc(33.33% - 20px);
+    background-color:lightgray; /* Set the background color for the team section */
+    padding: 20px;
+  }
+  /* Add this CSS to your stylesheet (AboutUs.css) */
+  .scroll-text-container {
+    width: 100%;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden;
+  }
+  
+  .scroll-text {
+    display: inline-block;
+    animation: scrollLeftToRight 10s linear infinite; /* Adjust duration and timing function as needed */
+    font-size: large;
+    margin-bottom: 0%;
+  }
+  
+  @keyframes scrollLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%); /* Adjust the distance as needed */
+    }
+  }
+  
+  
+  /* Add media queries for responsive design if needed */
+  
+  
+  
+  
+  
+  

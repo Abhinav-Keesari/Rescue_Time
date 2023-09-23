@@ -30,17 +30,6 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact={"true"}
-                to="/training"
-                activeclassname="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Training
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact={"true"}
                 to="/report"
                 activeclassname="active"
                 className="nav-links"
@@ -58,6 +47,28 @@ function NavBar() {
                 onClick={handleClick}
               >
                 Collaborate
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact={"true"}
+                to="/about"
+                activeclassname="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                About Us
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact={"true"}
+                to="/login"
+                activeclassname="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Login
               </NavLink>
             </li>
           </ul>
